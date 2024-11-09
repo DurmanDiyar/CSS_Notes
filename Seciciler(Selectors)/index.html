@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 
+            *{
+                color: brown;
+            }
+          bu kullanım tüm etiketleri etkiler  
+         */
+         
+         /* p{
+            color: aqua;
+         } 
+            bu kullanımı p etiketinin tümünü etkiler 
+         */
+
+         /* p,h3{
+            color: blue;
+         }
+         bu şekilde iki etiketi birden kullanarak işlem yapabilriz   
+         */
+
+         /* div p{
+            color:coral ;
+         } 
+         div'in içindeki tüm p etiketlerini etkiler    
+         */
+
+         /* div>p{
+            color: rebeccapurple;
+         } 
+         burdaki anlam annesi div olan p etiketlerini seçer sadece    
+         */
+
+         /* div+p{
+            color: teal;
+         } 
+         div elementen hemen sonraki ilk p etiketini seçer    
+         */
+         /* div~p{
+            color: rebeccapurple;
+         } 
+          bunun anlamı div etiketinden sonraki büttün p leri seçer
+         */
+
+         /* div>p:first-child{
+            color: red;
+         }
+         div elementinin ilk çocugunu seçer   
+         */
+         /* div>p:last-child{
+            color: red;
+        } 
+            /*
+         div elementinin son çocugunu seçer
+       */
+
+       /* div>p:nth-child(3){
+        color: red;
+       } 
+        divin 3. cocugunu seçer sırasıona göre seçim yapar
+       */
+
+       /* div>nav>a:nth-child(3){
+        color: brown;
+       }
+        div etikenin çocugu olan nav etiketi ve bu nav etiketinin çocugu olan a etiketinden 3 sıradkini seçer
+      */
+
+
+    </style>
+</head>
+<body>
+    <div>
+
+        <p>paragraf1</p>
+        <p>paragraf2</p>
+        <p>paragraf3</p>
+        <p>paragraf4</p>
+        <p>paragraf5</p>
+
+        <nav>
+            <p>paragraf6</p>
+            <a href="">link1</a>
+            <a href="">link2</a>
+            <a href="">link3</a>
+        </nav>
+        <a href="">link 4</a>
+        <a href="">link 5</a>
+    </div>
+    <div>
+        <p>paragraf7</p>
+        <p>paragraf8</p>
+        <p>paragraf9</p>
+    </div>
+    <div>
+        <h3>h3 etiketi 1</h3>
+        <h3>h3 etiketi 2</h3>
+        <h3>h3 etiketi 3</h3>
+    </div>
+    <p>paragraf10</p>
+    <p>paragraf11</p>
+</body>
+</html>
